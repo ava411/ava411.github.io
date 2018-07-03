@@ -1,0 +1,304 @@
+.video-container {
+    position: relative;
+  }
+  iframe {
+    height: 700px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #techstart   {
+    font-family: futura, "arial";
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .biggest   {
+    font-size: 80px;
+  }
+  
+  #aMovement   {
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    margin-top: 85px;
+    letter-spacing: 6px;
+  }
+  
+  .back   {
+    background-color: #000;
+    width: 100%!important;
+    margin-top: -20px;
+    height: auto;
+    padding: 120px 0px 150px 0px;
+  }
+  
+  .text   {
+    color: #fff;
+    text-align: center;
+    font-family: "Avenir","Arial", sans-serif;
+    display: block;
+  }
+  
+  .ttext   {
+    color: #fff;
+    text-align: center;
+    font-family: "Avenir","Arial", sans-serif;
+    padding: 15px;
+  }
+  
+  .buttons   {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  #pull   {
+    margin-top: -2px;
+    background-color: white;
+  }
+  
+  #back3   {
+    background-color: #000;
+    padding: 120px 0px 150px 0px;
+    display: block;
+  }
+  
+  #test   {
+      color: #fff;
+    text-align: center;
+    font-family: "avenir","Arial", sans-serif;
+    padding: 0px 170px;
+    font-style: italic;
+  }
+  
+  #red   {
+    text-decoration: none;
+    color: red;
+  }
+  
+  #back5   {
+    background-color: #000;
+    padding: 120px 0px 150px 0px;
+    display: block;
+    margin-top: 300px;
+    margin-left: -30px;
+  }
+  
+  .prof   {
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+     margin: 0 auto;
+     padding-bottom: 20px;
+     padding-top: 20px;
+  }
+  
+  .tttext   {
+    color: #fff;
+    text-align: left;
+    font-family: "Avenir","Arial", sans-serif;
+    display: inline-block;
+  }
+  
+  
+  #box1a  {
+    z-index: 4;
+    text-align: center;
+    font-family: "Avenir", "Arial";
+    color: #000;
+    padding: 200px 50px 200px 50px;
+    margin: 0px;
+    font-size: 21px;
+  }
+  
+  #box2a  {
+    z-index: 4;
+    text-align: center;
+    font-family: "Avenir", "Arial";
+    color: #000;
+    margin: 0px;
+    font-size: 23px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  
+  #testimonials   {
+    width: 80%;
+    padding: 50px;
+  }
+  
+  .testPics   {
+    width: 180px;
+    display: block;
+    margin-left: -110px;
+    border-radius: 50%;
+  }
+  
+  
+  /* form stuff */
+  
+  form  {
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    width: 550px;
+    height: 570px;
+    color: #333;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 1%;
+    text-align: center;
+  }
+  
+  
+  input {
+    display: inline-block;
+    text-align: center;
+    height: 25px;
+    font-family: avenir, Futura;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 0.5px solid #ccc;
+    width: 400px;
+  
+  }
+  
+  textarea  {
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    font-family: avenir, Futura;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 8px;
+    border: 0.5px solid #ccc;
+    width: 400px;
+  }
+  
+  button {
+    width: 425px;
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    text-transform: lowercase;
+    margin-top: 8px;
+    font-size: 30px;
+    font-family: Avenir, futura;
+  
+  }
+  
+  button:hover  {
+    opacity: 0.5;
+  }
+  
+  
+  .center   {
+    margin: 0 auto;
+  }
+  
+  .bigheading   {
+    font-size: 42px;
+    color: #333;
+    font-family: avenir, futura;
+    text-align: center;
+  }
+  
+  /*end form */
+  
+  #showOff  {
+    height: 248px;
+    width: 36%;
+    z-index: 3;
+    position: absolute;
+    display: inline-block;
+    margin: 0 auto;
+    left: 32%;
+    margin-top: 14%;
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  
+  
+  .generic  {
+    font-family: "Avenir", "Arial", sans-serif;
+    color: black;
+    font-size: 23px;
+    list-style-type: none;
+    line-height: 2.2;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: -15px;
+  }
+  
+  .collab   {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .collab2   {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .soclose  {
+    font-size: 45px;
+    color: #ccc;
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .vt   {
+    font-family: "Avenir", "Arial", sans-serif;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  .line {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .centerme   {
+    display: block;
+    margin: 0 auto;
+    width: 348px;
+    border: 0px;
+    padding-bottom: 85px;
+  }
+  
+  #share-buttons img {
+  width: 55px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  }
+  
+  a {
+    text-decoration: none;
+  
+  }
